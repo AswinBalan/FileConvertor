@@ -1,0 +1,19 @@
+.panel {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 20px;
+}
+/* */
+
+div > button
+{
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 30px;
+    outline: none;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin: 7% 45%;
+    
+}
