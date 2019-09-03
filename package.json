@@ -1,0 +1,21 @@
+{
+  "name": "fileconverter",
+  "version": "1.0.0",
+  "description": "A simple file convertor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async-polling": "^0.2.1",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "mongoose": "^5.6.5",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "request": "2.88.0"
+  },
+  "author": "AswinBalan",
+  "license": "ISC"
+}
