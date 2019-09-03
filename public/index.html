@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="public.js"></script>
+</head>
+<body>
+    <div class="w3-container container">
+        <h1><i>WELCOME TO FILE UPLOADER</i></h1>
+    </div>
+
+    <div class="split signup">
+        <form id="fm" action="#">
+            <label class="lc" id="el" name="email"><i>Email</i></label>
+            <input class="w3-input w3-animate-input ic" name="email" style="margin-left:23%; width: 300px; text-align:center;" id="iid" type="email" required/>
+            <label class="lc" id="pl" name="password"><i>Password</i></label>
+            <input class="w3-input w3-animate-input ic" name="password" style="margin-left:23%; width: 300px; text-align:center;" id="iid" type="password" required/>
+            <label class="lc" id="cpl" name="confirmpassword"><i>Confirm Password</i></label>
+            <input class="w3-input w3-animate-input ic" name="confirmpassword" style="margin-left:23%; width: 300px; text-align:center;" id="iid" type="password" required/>
+
+            <button class="ic" type="button" onclick="myFunction()" id="btn" style="margin: 40px 180px; width: 100px;"><i>Sign Up</i></button>
+        </form>
+    </div>
+
+    <div class="split graphic">
+        <img id="show"  src="upload.png" alt="image"/>
+    </div>
+    <div class="success">
+        <img id="sc" src="padlock1.png"  style="display: none;" alt="image"/>
+    </div>
+    <p id="status"></p>
+</body>
+</html>
